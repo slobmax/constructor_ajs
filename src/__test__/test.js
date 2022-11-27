@@ -1,6 +1,6 @@
 import Character from '../app';
 
-test('character bowman undead', () => {
+test('character bowman & undead', () => {
   const bowman = new Character('Bowman', 'Bowman');
   expect(bowman).toEqual({
     name: 'Bowman',
@@ -12,7 +12,7 @@ test('character bowman undead', () => {
   });
 });
 
-test('character wordsman zombie', () => {
+test('character wordsman & zombie', () => {
   const swordsman = new Character('Swordsman', 'Swordsman');
   expect(swordsman).toEqual({
     name: 'Swordsman',
@@ -24,7 +24,7 @@ test('character wordsman zombie', () => {
   });
 });
 
-test('character magician daemon', () => {
+test('character magician & daemon', () => {
   const magician = new Character('Magician', 'Magician');
   expect(magician).toEqual({
     name: 'Magician',
